@@ -4,7 +4,7 @@ import pandas as pd
 import json
 from sklearn.externals import joblib
 from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
 
 model_file = 'model.sav'
